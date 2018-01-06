@@ -1,0 +1,21 @@
+Higher order functions:
+- functions that accept other functions
+- enhance the behavior of other functions
+
+Example------------------------------
+
+- run with debugger: 
+takes whatever function given and runs with debugger 
+
+- set timeout: 
+turns function sort of like a timer/alarm clock
+
+- for each : 
+will take function and run it on every item in an array
+
+- add Event Listener: 
+will run the function whenever theres certain events that happens on a specific DOM element
+--------------------------------------
+
+Callback functions:
+- the functions that are passed into higher order functions
