@@ -3,8 +3,8 @@
 ['item 1', 'item 2', 'item 3']
 ["item 1", "item 2", "item 3"]
 
-var todos = ['item 1', 'item 2', 'item 3']  
 //var = variables   todos = name of variables   ['?', '?', '?'] = arrays
+var todos = ['item 1', 'item 2', 'item 3']  
 undefined
 
 todos
@@ -13,21 +13,22 @@ todos
 
 -DISPLAY-
 console.log('hello there'); 
-hello there
+// hello there
 
 console.log('hello there','gorgon');
-hello there gorgon
+// hello there gorgon
 
 var todos = ['item 1', 'item 2', 'item 3']
 console.log(todos);
-["item 1", "item 2", "item 3"]
+// ["item 1", "item 2", "item 3"]
 
 console.log('todos');
-todos
+// todos
 
 
 -ADD-
-todos.push('item 4') //adds item 4 in the array/list
+//adds item 4 in the array/list
+todos.push('item 4') 
 4
 
 todos
@@ -56,15 +57,18 @@ todos[4]
 todos[5]
 undefined
 
-todos[0] = 'item 1 updated' // todos[specific item] = change value
-"item 1 updated" //new value (no longer item 1)
+// todos[specific item] = change value
+todos[0] = 'item 1 updated' 
+//new value (no longer item 1)
+"item 1 updated" 
 
 
 -DELETE-
 todos
 (5) ["item 1 updated", "item 2", "item 3", "item 4", "item 5"]
 
-todos.splice(0, 1) // todos.splice(place in array[ ], how many item to delete)
+// todos.splice(place in array[ ], how many item to delete)
+todos.splice(0, 1) 
 ["item 1 updated"]
 
 todos
