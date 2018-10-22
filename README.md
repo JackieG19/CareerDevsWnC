@@ -1,4 +1,4 @@
-[Watch and Code](https://watchandcode.com/) by by Gordon Zhu
+[Watch and Code](https://watchandcode.com/) by Gordon Zhu
 
 - version 1: Arrays
 - version 2: Functions
