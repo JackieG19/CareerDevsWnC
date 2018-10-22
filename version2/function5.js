@@ -1,4 +1,4 @@
-//Function Delete\\
+// Function Delete \\
 
 function deleteTodos() {
     todos.splice(position, 1);

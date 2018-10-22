@@ -1,4 +1,4 @@
-//Function add\\
+// Function add \\
  
  function addTodos() {
      todos.puch('new todos');
@@ -12,7 +12,9 @@
  displayTodos()
  My Todos: ['item 1', 'item 2', 'item 3', "new todos'"]
  
+ 
  //-----------------------------------
+ 
  
  function addTodos() {
      todos.puch('new todos');
@@ -23,6 +25,7 @@
  
  // console - print
  My Todos: ['item 1', 'item 2', 'item 3', 'new todos']
+ 
  
  //------------------------------------
  

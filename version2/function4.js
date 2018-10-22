@@ -1,4 +1,4 @@
-//Function Change\\
+// Function Change \\
 
  function changeTodos(position, newValue) {
 todos [position] = "newValue";
@@ -11,9 +11,11 @@ My Todos: ["item 1", "item 2", "item 3"]
 changeTodos(0, "changed") 
 
 displayTodos()
-My Todos: ["changed", "item 2", "item 3"]
+My Todos: ["changed", "item 2", "item 3"] 
+
 
 //----------------------------------
+
 
 function changeTodos(position, newValue) {
 todos [position] = "newValue";
