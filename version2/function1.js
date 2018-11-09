@@ -1,41 +1,33 @@
-// Functions are just recipes ------
+// Functions are just recipes
+ 
+ makeTurkeySandwhich
+    Get one slice of bread.
+    Add Turkey.
+    Put a slice of bread on top.
 
-    makeTurkeySandwhich
+
+function makeTurkeySandwhich(){
+    Get one slice of bread;
+    Add Turkey;
+    Put a slice of bread on top;
+}
+
+return makeTurkeySandwhich();
+
+// Customizing functions
+
+ makeSandwhichWith___
     Get one slice of bread
-    add turkey
-    put a slice of bread on top 
+    Add ___
+    Put a slice of bread on top
 
 
-function makeTurkeySandwhich() {
-    Get once slice of bread
-    add turkey
-    put a slice of bread on top; 
+function makeSandwhichWith(filling){
+    Get one slice of bread;
+    Add filing;
+    Put a slice of bread on top;
 }
 
-
-
-// Customizing functions ------
-
-    makeSandwhichWith ______.
-    Get one slice of bread
-    add _____.
-    put a slice of bread on top 
-
-
-function makeSandwhichWith(filling) {
-    Get once slice of bread
-    add filling
-    put a slice of bread on top;
-}
-
-makeSandwhichWith('ham')
-
-
-// More on customizing functions ------
-
-function sayHiTo(person) {
-    console.log('hi', person);
-}
-    sayHiTo('gordon') = hi gordon 
+makeSandwhichWith(ham)
 
 
