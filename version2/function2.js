@@ -1,11 +1,12 @@
-// Function Display
+//  More on customizing functions
 
-var todos = ['item 1', 'item 2', 'item 3'];
-
-function displayTodos() {
-console.log('My Todos:', todos);
+function sayHiTo(person){
+    console.log('hi', person);
 }
-displayTodos();
-// My Todos: ['item 1', 'item 2', 'item 3']
+
+sayHiTo('Gordon'); // person = Gordon
+
+// print out: 
+// hi Gordon
  
  
