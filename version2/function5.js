@@ -1,16 +1,13 @@
-// Function Delete \\
+var todos = ['item 1', 'item 2', 'item 3'];
 
-function deleteTodos() {
-    todos.splice(position, 1);
-	displayTodos();
+// It should have a function to change a todo
+
+function changeTodos(position, newValue){
+    // todos[0] = "some new value"; 
+    todos[position] = newValue;
 }
 
-// console - print
+changeTodos(0, "changed");
 
-displayTodos()
-My Todos: ["newValue", "item 2", "item 3"]
-
-deleteTodos(0)
-
-displayTodos()
-My Todos: ["newValue", "item 3"]
+// > todos
+// [ 'changed', 'item 2', 'item 3' ]
