@@ -1,35 +1,21 @@
-// Objects and Function \\
-
-{
-    name: "Gordon",
-    sayName: function sayName() {
-    console.log(this);
+// you can create a function within an object
+var gordon = {
+    name: 'Gordon',
+    sayName: function(){
+    console.log(this); 
     }
-}
+};
+
+// keyword call this, so when you use 'this' inside the function 
+// that is on an object, 'this' will refer to that entire object
 
 
 var gordon = {
-    name: "Gordon",
-    sayName: function sayName() {
-    console.log(this);
+    name: 'Gordon',
+    sayName: function(){
+    console.log(this.name); 
     }
-}
+};
 
-// console - print
-gordon.sayName();
-    Object {name: "Gordon"}
-        name: "Gordon"
-        sayName: function() //function() {console.log(this)}
-        __proto__: Object
-
-
-var gordon = {
-    name: "Gordon",
-    sayName: function sayName() {
-    console.log(this.name);
-    }
-    
-// console - print
-gordon.sayName();
-Gordon
+// this.name will grab the first key and print out the value of name
 
