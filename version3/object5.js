@@ -1,26 +1,12 @@
+// It should have an addTodo method
 
-// Delete Todos Method \\
-
-var todoList{
-    todos: ['item 1', 'item 2', 'item 3'],
-    displayTodos function() {
-     console.log("My Todos", this.todos);
+var todoList = {
+    todos: ["item 1", "item 2", "item 3"],
+    displayTodos: function(){ 
+    console.log("My Todos:", this.todos);
     },
-    addTodos: function(todo) {
-        this.todos.push(todo);
-        this.displayTodos();
-    },
-    changeTodos: function(position, newValue) {
-        this.todos[position] = newValue;
-        this.displayTodos();
-    },
-    
-    deleteTodos: function(position) {
-        this.splice(position, 1);
-        this.displayTodos();
+    addTodos: function(todo){ // new method
+        this.todos.push(todo); // this will refer to the todos array
+        this.displayTodos(); // this call the displayTodos function
     }
 };
-
-// console - print
-todoList.deleteTodos(1);
-My Todos: ['first', 'item 3', 'pluncker']
