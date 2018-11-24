@@ -1,50 +1,26 @@
-// BOOLEANS \\
+//  todoList.addTodo should add objects
 
-var todoList {
-    todos: ['item 1', 'item 2', 'item 3'],
-    displayTodos function() {
-     console.log("My Todos", this.todos);
-    },
-(a.)--addTodos: function(todo) {
-        this.todos.push(todo);      
-        this.displayTodos();
-    }, /*
-(b.)--changeTodos: function(position, newValue) {
-        this.todos[position] = newValue;
-        this.displayTodos();
+var todoList = {
+    todos: [],
+    displayTodos: function() {
+    console.log("My Todos:", this.todos);
     },
     
-    deleteTodos: function(position) {
-        this.splice(position, 1);
-        this.displayTodos();
-    },
-(c.) <----------------------->
+    addTodos: function(todoText) { // ex. ("food")
     
-};
-{
-    todo.Text: 'item 1',
-    completed: ___ //booleans true or fasle
-}   */
-
-
-
-// todoList.addTodo should add objects \\
-
-a.)   addTodos: function(todoText) {
-        this.todos.push({
-        todoText: todoText,
-        completed: fasle
+        this.todos.push({ // add another object
+        
+        // will equal to whatever the user passes in the addTodos method
+        todoText: todoText, // todoText = "food",
+        
+        // this will tell if the list is completed or not with a boolean value
+        completed: false 
+        
         });
+        
+        console.log(todoList.addTodos("food"));
+        
         this.displayTodos();
+        // My Todos: [{ todoText: 'food', completed: false }]
     },
-
-
-// console - print
-todoList.addTodo('this is an object')
-My Todos [Object]
-       0: Object
-          completed: fasle
-          todoText: 'this is an object'
-          __proto__: Object
-       length: 1
-     __proto__: Array[0]
+};
