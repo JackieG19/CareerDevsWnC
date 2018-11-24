@@ -1,73 +1,40 @@
-var todoList {
-    todos: ['item 1', 'item 2', 'item 3'],
-    displayTodos function() {
-     console.log("My Todos", this.todos);
-    },/*
-(a.)--addTodos: function(todo) {
-        this.todos.push(todo);      
-        this.displayTodos();
-    }, 
-(b.)--changeTodos: function(position, newValue) {
-        this.todos[position] = newValue;
-        this.displayTodos();
-    },*/
+//  todoList.deleteTodos should delete an item in the array
+
+var todoList = {
+    todos: [], //  
+    displayTodos: function() {
+    console.log("My Todos:", this.todos);
+    // example:
+    // My Todos: [{ todoText: 'item 1', completed: false}, - 0
+    // {todoText: 'item 2', completed: false}, - 1
+    // {todoText: 'item 3', completed: false}, - 2
+    // {todoText: 'item 4', completed: true }] - 3
+    },
     
-    deleteTodos: function(position) {
-        this.splice(position, 1);
+    addTodos: function(todoText) {  
+        this.todos.push({ 
+        todoText: todoText, 
+        completed: false 
+        });
         this.displayTodos();
     },
-(c.) <----------------------->
+    
+    changeTodos: function(position, todoText) {
+        this.todos[position].todoText = todoText;
+        this.displayTodos();
+    },
+    
+    deleteTodos: function(position){ // function(2)
+    
+        this.todos.splice(position); 
+        // "item 3" will be removed
+        
+        this.displayTodos(); 
+        // example:
+        // My Todos: [{ todoText: 'item 1', completed: false}, - 0
+        // {todoText: 'item 2', completed: false}, - 1
+        // {todoText: 'item 4', completed: true }] - 2
+    }
     
 };
 
-
-// flip the completed property \\
-
-
------NOTES------
-inspect - console
-type:     !true       !fasle
-prints:    fasle       true
-
-var gordonBoolean = false
-!gordonBoolean 
-true
-
-gordonBoolean = !gordonBoolean;
-true
-
-gordonBoolean
-true
-var gordonBoolean = true
-
------NOTES-----
-
-deleteTodos: function(position) {
-        this.splice(position, 1);
-        this.displayTodos();
-    },
-
-c.) toggleCompleted: function(position) {
-        var todo = this.todos[position];
-        todos.completed = !todos.completed;
-        this.displayTodos();
-}
-
-// console - prints
-todoList.addTodo('boolean texting')  
- My Todos [Object]
-       0: Object
-          completed: fasle
-          todoText: 'boolean texting'
-          __proto__: Object
-       length: 1
-     __proto__: Array[0]
-     
-todoList.toggleCompleted(0);
-     My Todos [Object]
-       0: Object
-          completed: true
-          todoText: 'boolean texting'
-          __proto__: Object
-       length: 1
-     __proto__: Array[0]
