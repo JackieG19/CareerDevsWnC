@@ -1,7 +1,7 @@
 # What I've learned
 
 **bang operator**
-- ! is the bang operator that takes the opposite of whats in from of it
+- ! is the bang operator that takes the opposite of whats in front of it
 - !true = false
 - !false = true
 
