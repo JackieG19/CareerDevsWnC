@@ -9,8 +9,6 @@ Function within an object is called a **method**
 
 The keyword **this.** will refer to a specific property in the object
 
-Creating an array in an object using a method in the object. 
-
 **.push()** method will add items to the end of an array
  
 Changing an item within the array by the position in the array and replacing the item with somthing else
