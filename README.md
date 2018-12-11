@@ -1,4 +1,4 @@
-[Watch and Code](https://watchandcode.com/) by Gordon Zhu
+[Practical Javascript](https://watchandcode.com/) learning along with Gordon Zhu
 
 |version | Subject |
 | --- | :---:  |
