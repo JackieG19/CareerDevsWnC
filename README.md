@@ -1,3 +1,17 @@
+### Creating a TodoList page
+
+Focusing on the javascript
+
+Feature that are able to:
+1. add a to-do before you can do anything else
+2. toggle a single item
+   - you can remove an item in the list 
+   - or reset back to the orginal state
+3. toggle everything at once
+4. edit an item on the list
+5. delete an item on the list
+
+
 [Practical Javascript](https://watchandcode.com/) learning along with Gordon Zhu
 
 |version | Subject |
