@@ -12,40 +12,14 @@ var todoList {
      console.log(this.todos[i].todoText);
      }
     },
-    
-    // console - print
-    todoList.displayTodos();
-    My Todos []
-    
-    todoList.addTodo('first');
-    My Todos [object]
-    first
-    
-    todoList.addTodo('second');
-    My Todos [object, object]
-    first
-    second
-    
-//-----------------------------------------    
 
-var todoList {
+var todoList2 {
     todos: ['item 1', 'item 2', 'item 3'],
     displayTodos function() {
      console.log("My Todos:");
-     for(var i = 0; i < this.todos.length; i++){
-     console.log(this.todos[i].todoText);
+     for(var j = 0; i < this.todos.length; j++){
+     console.log(this.todos[j].todoText);
      }
     },
-    
-    // console - print-
-    todoList.addTodo('first');
-    My Todos:
-    first
-    
-    todoList.addTodo('second');
-    My Todos:
-    first
-    second
-    
     
     
