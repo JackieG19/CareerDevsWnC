@@ -13,7 +13,8 @@ When the for loop runs:
     - then i increase by 1 (1 + 1)
 - 2 = "hey"
     - then i increase by 1 (1 + 2)
-- It will stop at 3 and the for loop will no longer be true
+- 3 = false
+    - It will stop at 3 and the for loop will no longer be true
 
 ___
 
