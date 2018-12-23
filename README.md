@@ -11,9 +11,6 @@ Feature that are able to:
 4. edit an item on the list
 5. delete an item on the list
 
-
-[Practical Javascript](https://watchandcode.com/) learning along with Gordon Zhu
-
 |version | Subject |
 | --- | :---:  |
 | 1 | Arrays |
