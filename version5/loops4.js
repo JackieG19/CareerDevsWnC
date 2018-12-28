@@ -1,10 +1,8 @@
 //displayTodos should show .completed
 
-<-------NOTES-----------------------------------------> 
-
-() item     Not completed
-(x) item    completed
-(x) item    completed
+// () item     Not completed
+// (x) item    completed
+// (x) item    completed
 
     // check if .completed is true
 if (this.todos[i].completed === true) { 
@@ -12,8 +10,6 @@ if (this.todos[i].completed === true) {
     }   else {
            // print with ( )
            }
-        
-<-------NOTES-----------------------------------------> 
 
 
 var todoList {
@@ -28,13 +24,13 @@ var todoList {
             
     if (this.todos[i].completed === true) {
         console.log('(x)', this.todos[i].todoText);
-        }//if
+        }
         else {
             console.log('( )', this.todos[i].todoText);
-           }//else
-        }//for
-    },//else
-}//function
+           }
+        }
+    },
+}
 
 
 // console - print
