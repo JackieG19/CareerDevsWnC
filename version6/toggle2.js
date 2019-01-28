@@ -12,10 +12,11 @@ var todoList {
         
     if (this.todos[i].completed === true) {
         console.log('(x)', this.todos[i].todoText);
-       }   
-       else {
-           console.log('( )', this.todos[i].todoText);
-            }
+           
+        }   
+            else {
+                console.log('( )', this.todos[i].todoText);
+           }
         }
     },
 }
@@ -26,7 +27,23 @@ addTodos: function(todoText) {
         completed: fasle
         });
         this.displayTodos();
-    },
+},
+    
+changeTodos: function(position, todoText) {
+        this.todos[position].todoText = todoText;
+        this.displayTodos();
+},
+
+deleteTodos: function(position) {
+        this.splice(position, 1);
+        this.displayTodos();
+},
+
+toggleCompleted: function(position) {
+        var todo = this.todos[position];
+        todos.completed = !todos.completed;
+        this.displayTodos();
+},
 
 toggleAll: function(position) {
 
