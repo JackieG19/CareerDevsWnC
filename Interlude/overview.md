@@ -1,22 +1,21 @@
-//Data types overview\\
+**Data types overview**
 
 
 object { } // arrays, function, data
 
 primitives - building blocks
 
-string - 'this is a string'
-number - 1, 2, 3, ...
-booleans - true / false
-undefined - value has not be set
-null - 'nothing'
+- string - 'this is a string'
+- number - 1, 2, 3, ...
+- booleans - true / false
+- undefined - value has not be set
+- null - 'nothing'
+___
 
+**Comparisons with primitives**
+- comparing the data value, doesn't care about memory loctaion or adress of the data
 
-
-//Comparisons with primitives\\
-~ comparing the data value, doesn't care about memory loctaion or adress of the data
-
-
+```
 -comparing strings-                         -comparing numbers-
 'gordon' === 'gordon';                      1 === 1
 true                                         true
@@ -33,12 +32,12 @@ false                                       true
 
 false === false
 true
+```
+___
 
-
-
-//Comparisons with objects\\
-~ comparing references of the object which is the memory adress
-
+**Comparisons with objects**
+- comparing references of the object which is the memory adress
+```
 {} === {}
 false
 
@@ -57,4 +56,4 @@ false
 var houseA = {}; //comparing one object
 houseA === houseA
 true
-
+```
